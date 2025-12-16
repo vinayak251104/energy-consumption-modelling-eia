@@ -51,7 +51,7 @@ Dataset was extracted using Javascript and Data Cleaning + ML was done in Jupyte
 
 ## Key Insight
 
-Fuel consumption is strongly governed by electricity generation due to physical energy conversion relationships:
+Fuel consumption is strongly governed by electricity generation due to physical energy conversion relationships and High Correlation Coefficient (0.97):
 
 \[
 Fuel\ Consumption\ (MMBtu) = Generation\ (MWh) \times \frac{Heat\ Rate\ (Btu/kWh)}{1000}
