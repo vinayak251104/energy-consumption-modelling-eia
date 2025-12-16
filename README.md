@@ -11,6 +11,8 @@ The analysis compares linear and non-linear models and explicitly studies the im
 
 The dataset is sourced from the **U.S. EIA Electricity Power Operational Data API** and contains annual, aggregated power system statistics across regions, sectors, and fuel types.
 
+Dataset was extracted using Javascript and Data Cleaning + ML was done in Jupyter Notebook
+
 **Key features include:**
 - Electricity generation (MWh)
 - Fuel consumption (MMBtu)
