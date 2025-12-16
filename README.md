@@ -15,7 +15,7 @@ Dataset was extracted using Javascript and Data Cleaning + ML was done in Jupyte
 
 **Key features include:**
 - Electricity generation (MWh)
-- Fuel consumption (MMBtu)
+- Total Fuel consumption (MMBtu)
 - Fuel type
 - Sector (electric utility, etc.)
 - Regional/state-level aggregation
