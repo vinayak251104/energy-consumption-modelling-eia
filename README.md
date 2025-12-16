@@ -51,16 +51,12 @@ Dataset was extracted using Javascript and Data Cleaning + ML was done in Jupyte
 
 ## Key Insight
 
-Fuel consumption is strongly governed by electricity generation due to physical energy conversion relationships and High Correlation Coefficient (0.97):
+Fuel consumption is strongly governed by electricity generation due to physical energy conversion relationships and **High Correlation Coefficient (0.97)**
 
-\[
-Fuel\ Consumption\ (MMBtu) = Generation\ (MWh) \times \frac{Heat\ Rate\ (Btu/kWh)}{1000}
-\]
+When generation is included, both Ridge and Random Forest Regressor models achieve high R² scores.  
+When generation is removed, performance drops sharply, revealing that remaining features **(fuel type, sector, region)** carry **limited but non-zero structural information**.
 
-When generation is included, both linear and non-linear models achieve high R² scores.  
-When generation is removed, performance drops sharply, revealing that remaining features (fuel type, sector, region) carry **limited but non-zero structural information**.
-
-Random Forest models show a modest improvement over Ridge regression, suggesting mild non-linear interactions, but physics-driven relationships dominate overall behavior.
+Random Forest Regressor model show a modest improvement over Ridge regression, suggesting **mild non-linear** interactions.
 
 ---
 
